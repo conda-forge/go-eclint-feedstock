@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.5.1
+  version: "0.5.2"
 
 package:
   name: go-eclint
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://gitlab.com/greut/eclint/-/archive/v${{ version }}/eclint-v${{ version }}.tar.gz
-  sha256: 0db3e023fdc0c8fa3487faf7daf4e021e32820cd4ae6ab3a2b51b770142ee72e
+  sha256: 0a9cc7fda855cc1ebadc3dee58db49a8cd859ef219ee6c205ec89ef53cc63896
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
